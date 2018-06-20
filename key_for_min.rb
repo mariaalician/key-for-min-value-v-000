@@ -7,7 +7,8 @@ ikea = {:chair => 25, :table => 85, :mattress => 450}
     lowest_key = nil #set local variables
     lowest_value = nil
     ikea.collect do |x, y|
-      if lowest_value < y
+      if lowest_value > y || lowest_value = nil
+        lowest_value = y
       lowest_key = x  
       
     end
