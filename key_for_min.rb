@@ -10,7 +10,7 @@ ikea = {:chair => 25, :table => 85, :mattress => 450}
       if lowest_value > y || lowest_value == nil
         lowest_value = y
       lowest_key = x  
-      
+    end
     end
 end
       
